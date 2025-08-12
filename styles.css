@@ -1,0 +1,40 @@
+.header {
+    color: white;
+    background-color: black;
+    box-sizing: border-box; 
+    border: 5px solid black;
+    text-align-last: center;
+    /* padding-left: 40%; */
+    background-image: image-set("imgs/lightning.jpeg");
+    padding-top: 20px;
+}
+
+.top-logo {
+    border: 2px solid black;
+}
+
+.song-button {
+    font-size: xx-large;
+}
+
+.concerts-button {
+    font-size: xx-large;
+}
+
+.button-box {
+    box-sizing: border-box;
+    /* border: 5px solid black; */
+    text-align: center;
+}
+
+* {
+    text-align: center;
+}
+
+.description {
+    border: solid black;
+}
+
+.description-box {
+    margin: 50px;
+}

@@ -1,11 +1,11 @@
 .header {
-    color: white;
+    color: maroon;
     background-color: black;
     box-sizing: border-box; 
     border: 5px solid black;
     text-align-last: center;
     /* padding-left: 40%; */
-    background-image: image-set("imgs/lightning.jpeg");
+    background-image: image-set("imgs/yeast-header.jpeg");
     padding-top: 20px;
 }
 
@@ -13,12 +13,9 @@
     border: 2px solid black;
 }
 
-.song-button {
+.song-button, .concerts-button {
     font-size: xx-large;
-}
-
-.concerts-button {
-    font-size: xx-large;
+    margin-top: 20px;
 }
 
 .button-box {
@@ -36,5 +33,7 @@
 }
 
 .description-box {
-    margin: 50px;
+    /* border: solid black; */
+    margin-left: 25px;
+    margin-right: 25px;
 }
